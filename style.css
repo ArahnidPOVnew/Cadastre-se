@@ -1,0 +1,61 @@
+*{
+	margin:0;
+	padding: 0;
+}
+@font-face {
+    font-family: Helvetica Neue;
+    src: url(font/helveticaneuecyr-light.otf);
+   }
+body{
+	background:url(img/fon1.jpg);
+	background-size: 100%
+}
+header{
+	background-color: #085292;
+
+}
+header li{
+display: inline-block;
+height: 35px;
+padding-left: 10px;
+padding-right:10px;
+
+
+}
+nav {
+	margin-left:820px;
+    width: 763px;
+    height: 35px;
+    text-align: center;
+    
+}
+#un{
+height: 35px;
+border-bottom: 3px solid #4affff;
+}
+nav li{
+	 font-family: Helvetica Neue,Tahoma;
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 35px;
+	}
+nav a{
+	color: #60b5ed;
+	text-decoration: none;
+}
+.f1{
+    background-color: #60b5ed;
+	color: white;
+}
+.f2{
+    background-color: #60b5ed;
+	color: white;
+}
+.f3{
+	margin-right: 40px;
+	border-right: 2px solid #56a2dc;
+}
+
+
