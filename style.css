@@ -7,8 +7,9 @@
     src: url(font/helveticaneuecyr-light.otf);
    }
 body{
-	background:url(img/fon1.jpg);
-	background-size: 100%
+	 background:url(img/fon1.jpg);
+     background-repeat:no-repeat ;
+     background-size: 100%
 }
 header{
 	background-color: #085292;
