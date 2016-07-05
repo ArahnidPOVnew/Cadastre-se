@@ -9,7 +9,8 @@
 body{
 	 background:url(img/fon1.jpg);
      background-repeat:no-repeat ;
-     background-size: 100%
+     background-size: 100%;
+
 }
 header{
 	background-color: #085292;
@@ -51,12 +52,125 @@ nav a{
 	color: white;
 }
 .f2{
-    background-color: #60b5ed;
-	color: white;
+	background: linear-gradient(to top, #085392, #60b5ed);
+    color: white;
 }
 .f3{
 	margin-right: 40px;
 	border-right: 2px solid #56a2dc;
 }
+
+#conteiner{
+	width:563px;
+	height:615px;
+	
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 225px;
+	
+   }
+   #fon{
+   	background-color: rgba(0,0,0,0.5);
+   	width:564px;
+	height:616px;
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 225px;
+   }
+   #head{
+   	width:563px;
+   	height:61px;
+   	text-align:center;
+   	border-bottom: 2px solid #b5bda8;
+   	color: white;
+    font-family: Helvetica Neue,Tahoma;
+    font-size: 24px;
+   font-weight: 400;
+   line-height: 16px;
+    }
+    #father{
+    	width:563px;
+	    height:502px;
+    }
+   #wrap{
+padding-top: 20px;
+   }
+   #wrap2{
+   	margin-top: 35px;
+   }
+   .wrap3{
+width: 276px; 
+height:25px;
+padding-top: 15px;
+text-align: center;
+margin-left:144px;
+color: #999;
+font-family: Helvetica Neue,Tahoma;
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+overflow: hidden;
+   }
+   p {
+    position: relative;
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+  }
+  p > span {
+    display: inline-block;
+    margin: 0 .4em;
+  }
+  p > span:before,
+  p > span:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    border-top: 3px solid #666666;
+    box-shadow: 0 1px 0 black;
+    margin-top: .6em;
+  }
+  p > span:before {
+    margin-left: -102%;
+  }
+  p > span:after {
+    margin-left: 2%;
+  }
+  input{
+  	width: 279px; 
+  	height: 35px;
+  	margin-top:  19px;
+  	color: #cccccc;
+   font-family:Helvetica Neue, Tahoma;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 16px;
+   background-color: #101010;
+   box-shadow: 0 1px 0 #4b4b4b;
+   text-indent: 15px;
+   border: none;
+     }
+
+     input:hover{
+background-image: linear-gradient(to top, #1b5288 0%, #1b5288 100%);
+box-shadow: 0 1px 0 #4b4b4b, inset 0 2px 5px rgba(29, 26, 22, 0.2), 0 0 9px rgba(47, 123, 197, 0.77), inset 0 0 2px rgba(0, 0, 0, 0.1);
+     }
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
