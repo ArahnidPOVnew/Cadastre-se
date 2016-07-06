@@ -158,8 +158,43 @@ overflow: hidden;
 background-image: linear-gradient(to top, #1b5288 0%, #1b5288 100%);
 box-shadow: 0 1px 0 #4b4b4b, inset 0 2px 5px rgba(29, 26, 22, 0.2), 0 0 9px rgba(47, 123, 197, 0.77), inset 0 0 2px rgba(0, 0, 0, 0.1);
      }
-     
+     .wrap6{
+    width: 279px; 
+  	height: 35px;
+  	text-align: center;
+    margin-left:120px; 
+    color: #ccc;
+    font-family:Helvetica Neue, Tahoma;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    margin-bottom: 20px;
+  	}
+     #checkbox{
+     	width: 40px;
+     	height: 5px;
+     }
+     .wrap7{
+     	position: absolute;
+     	width: 323px;
+     	height: 36px;
+     	color: #ccc;
+        font-family:Helvetica Neue, Tahoma;
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 16px;
+        text-align:center;
+        margin-left: 125px;
+        margin-top: 30px;
+       }
+.button{
+color: white;
+font-family: Tahoma;
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
 
+}
 
 
 
