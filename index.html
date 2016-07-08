@@ -5,6 +5,7 @@
 	<title>Cadastre-se</title>
 	<link rel="stylesheet" type="text/css href="reset.css">
 	<link rel="stylesheet" type="text/css" href="style.css"></head>
+	<link rel="stylesheet" href="font/font-awesome-4.6.3/css/font-awesome.min.css">
 </head>
 <body>
 	<header>
@@ -27,7 +28,9 @@
 						<a href="#nowhere" title="Ajuda">Ajuda</a>
 					</li>
 					<li>
-						<a href="#nowhere" title="Minhas Ofertas">Minhas Ofertas</a>
+					<i class="fa fa-flag-o fa-lg" aria-hidden="true"></i>
+
+					<a href="#nowhere" title="Minhas Ofertas">Minhas Ofertas</a>
 					</li>
 					<li class="f2">
 						<a href="#nowhere" title="Ola Entrar ou Cadastre-se" class="f2">
@@ -60,26 +63,26 @@
 						</p>
 					</div>
 					<div class="wrap5">
-						<input type="text" name="name" id="first_name" value="First name"/>
+						<input type="text" name="first_name" id="first_name" value="First name" required/>
 
 						</div>
 					<div>
-						<input type="text" name="name" id="last_name" value="Last name" tabindex="" required/>
+						<input type="text" name="last_name" id="last_name" value="Last name" tabindex="" required/>
 					</div>
 					<div>
-						<input type="Email" name="name" id="email_name" value="Email" tabindex="" required />
+						<input type="Email" name="email_name" id="email_name" value="Email" tabindex="" required />
 					</div>
 					<div>
-						<input name="text" type="text"  id="Choose_Password"  placeholder="Choose Password"   required/>
+						<input  type="text" name="Choose_Password"  id="Choose_Password"  placeholder="Choose Password"   required/>
 					</div>
 					<div>
-						<input name="text" type="text"  id="Password_Confirm" placeholder="Password Confirm"  tabindex="5"  required/>
+						<input type="text"  name="Password_Confirm"  id="Password_Confirm" placeholder="Password Confirm"  tabindex="5"  required/>
 					</div>
 					<div class="wrap6">
 					<input type="checkbox" name="checkbox" id="checkbox" required/>
 					<label for="checkbox">Send me Youbike updates and tips</label>
 					</div>
-					<button class="button">Create my Account</button>
+					<button type="submit" id="button" style="width:149px; height:33px">Create my Accoun</button>
 				</form>
 				<div class="wrap7">
 			<p>
@@ -87,9 +90,10 @@
 			</p>
 			</div>
 			</div>
-			
+
 		</div>
 	</div>
 </main>
 </body>
 </html>
+

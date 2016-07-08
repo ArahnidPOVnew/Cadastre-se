@@ -7,14 +7,14 @@
     src: url(font/helveticaneuecyr-light.otf);
    }
 body{
-	 background:url(img/fon1.jpg);
-     background-repeat:no-repeat ;
-     background-size: 100%;
-
+  background:url(img/fon1.jpg);
+        background-repeat:no-repeat ;
+        position: relative;
+        background-size: 100%;
 }
 header{
-	background-color: #085292;
-
+  background-color: #085292;
+  height: 35px;
 }
 header li{
 display: inline-block;
@@ -25,11 +25,11 @@ padding-right:10px;
 
 }
 nav {
-	margin-left:820px;
+	margin-left:800px;
     width: 763px;
     height: 35px;
     text-align: center;
-    
+
 }
 #un{
 height: 35px;
@@ -56,7 +56,7 @@ nav a{
     color: white;
 }
 .f3{
-	margin-right: 40px;
+	margin-right: 25px;
 	border-right: 2px solid #56a2dc;
 }
 
@@ -187,14 +187,20 @@ box-shadow: 0 1px 0 #4b4b4b, inset 0 2px 5px rgba(29, 26, 22, 0.2), 0 0 9px rgba
         margin-left: 125px;
         margin-top: 30px;
        }
-.button{
+#button{
 color: white;
-font-family: Tahoma;
+font-family:Helvetica Neue, Tahoma;
 font-size: 14px;
 font-weight: 400;
 line-height: 16px;
-
+border:none;
+border-radius: 5px;
+ background: linear-gradient(to bottom, #67c6e6, #2e7ac4);
 }
+i{
+  color: white;
+  margin-right: 10px;
+  }
 
 
 
